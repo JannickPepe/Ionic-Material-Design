@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>confirm-dialog</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <mat-form-field mat-menu-item class="example-full-width" appearance="fill">
+    <mat-label>Select the date</mat-label>
+    <input matInput [matDatepicker]="picker">
+    <mat-datepicker-toggle matSuffix [for]="picker">
+      <mat-icon matDatepickerToggleIcon>date_range</mat-icon>
+    </mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+    <button mat-button>Cancel</button>
+</mat-form-field>
+
+</ion-content>

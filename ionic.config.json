@@ -1,0 +1,7 @@
+{
+  "name": "ionic-material-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
